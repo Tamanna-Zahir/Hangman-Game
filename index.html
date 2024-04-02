@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"  crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Hangman Game</h1>
+  </header>
+  <br>
+  <br>
+  <p id ="note">Welcome to the fruity word guessing challenge! Please guess the name of a fruit using only lowercase letters. Remember, in this game, we're only looking for fruit names. Have fun!</p>
+  <div class ="game-conatainer">
+    <div class="text-center">
+      <img id ="image" src="images/img0.svg" alt ="";
+      <br>
+      <br>
+       <div class = "wrong-guesses"> Wrong Guesses: <span id = "missed" > 0</span> of 6</div>
+      <div id ="previousGuesses"> Previous Wrong Guesses: </div>
+      <br>
+      <p>Guess the fruit:</p>
+      <p id = "word"> </p>
+      <label>
+        <input type="text" id ="input" placeholder="characters only:"> 
+      </label>
+      <button id="check"> Check </button>
+      <div id ="wrongInput"></div>
+      <div id ="result"></div>
+      <br>
+      <img id="gif"  alt="GIF" style="display: none;">
+      <br>
+      <br>
+      <button id ="resetBtn" > Reset</button>
+      <p>Number of games:</p>
+      <p id="demo"></p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <img id="logo" src="images/csumb.png" alt="csumb">
+    <p>CST336 Internet Programming. 2023 ⒸTamanna Zahir</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

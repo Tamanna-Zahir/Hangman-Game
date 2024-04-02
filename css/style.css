@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #b2dff5;
+  text-align: center;
+  border: 5px solid  #a7a552;
+}
+h1{
+  margin-top:10px ;
+  background-color: #a7a552;
+  color: #0b407a;
+  text-align: center;
+}
+footer{
+  font-style: bold;
+  font-size: smaller;
+  text-align: center;
+  background-color: #a7a552;
+  color: #0b407a;
+  margin-top: 25px;
+  padding: 5px;
+}
+#logo{
+  width: 25%;
+}
+#image{
+  border:  5px solid  #a7a552;
+  padding: 5px;
+
+}
+#gif{
+  width: 50px;
+  height: 50px;
+}
+ 
